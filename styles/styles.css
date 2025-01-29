@@ -1,0 +1,34 @@
+/* ------ universal style selection ------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------ hero style section ------ */
+
+.hero {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-image {
+  width: 250px;
+  height: auto;
+}
