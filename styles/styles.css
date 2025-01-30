@@ -57,3 +57,41 @@ img {
   color: white;
   border-radius: 20px;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ------ information section ------ */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  align-items: center;
+}
+
+.info-picture {
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-picture img {
+  width: 200px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+}
+.test p {
+  margin-top: 10px;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+/* ------quote section ------  */
