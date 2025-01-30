@@ -8,27 +8,52 @@
 
 /* ------ hero style section ------ */
 
-.hero {
+header {
   background-color: #1f2937;
-  color: white;
   display: flex;
   flex-direction: column;
+  color: white;
+  padding: 20px 400px 200px 400px;
 }
 
-.hero-nav {
+.hero-top-left {
   display: flex;
+  justify-content: space-between;
 }
 
 ul {
   display: flex;
   list-style: none;
-}
-li a {
-  text-decoration: none;
-  color: white;
+  gap: 20px;
+  align-items: center;
 }
 
-.hero-image {
-  width: 250px;
+.hero-top-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hero-items {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.hero-items p {
+  margin-top: 10px;
+}
+img {
+  width: 400px;
   height: auto;
+}
+
+.hero-items button {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #3882f6;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
 }
