@@ -95,3 +95,40 @@ a {
 }
 
 /* ------quote section ------  */
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  font-size: 36px;
+}
+
+/* ------ call to action ------ */
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  width: 75%;
+  margin: 100px auto;
+  padding: 50px 100px;
+  border-radius: 10px;
+  color: white;
+}
+
+.action {
+  font-size: 24px;
+}
+
+.call-to-action button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #3882f6;
+  color: white;
+}
